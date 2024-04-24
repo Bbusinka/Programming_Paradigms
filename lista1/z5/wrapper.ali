@@ -1,0 +1,76 @@
+V "GNAT Lib v11"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U wrapper%b		wrapper.adb		544122d8 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W library%s		library.ads		library.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_6%s	s-conca6.adb		s-conca6.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+D ada.ads		20230513075248 76789da1 ada%s
+D a-except.ads		20230513075248 449c9b65 ada.exceptions%s
+D a-ioexce.ads		20230513075248 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20230513075248 119b8fb3 ada.streams%s
+D a-tags.ads		20230513075248 9eaa38c6 ada.tags%s
+D a-textio.ads		20230513075248 aef4d56d ada.text_io%s
+D a-unccon.ads		20230513075248 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230513075248 edec285f interfaces%s
+D i-c.ads		20230513075248 c624fa43 interfaces.c%s
+D i-cstrea.ads		20230513075248 e53d8b8e interfaces.c_streams%s
+D library.ads		20240415223308 e3e70c61 library%s
+D system.ads		20230513075248 a2da961d system%s
+D s-conca2.ads		20230513075248 02a0d7d0 system.concat_2%s
+D s-conca6.ads		20230513075248 d2c72db2 system.concat_6%s
+D s-crtl.ads		20230513075248 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230513075248 54135002 system.exception_table%s
+D s-ficobl.ads		20230513075248 078245e4 system.file_control_block%s
+D s-imagei.ads		20230513075248 0d3f86a7 system.image_i%s
+D s-imgint.ads		20230513075248 bdb6f5ec system.img_int%s
+D s-parame.ads		20230513075248 4752c4cb system.parameters%s
+D s-secsta.ads		20230513075248 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20230513075248 a7318a92 system.soft_links%s
+D s-stache.ads		20230513075248 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230513075248 0f2d51ff system.standard_library%s
+D s-stoele.ads		20230513075248 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20230513075248 ed88f8fb system.storage_elements%b
+D s-traent.ads		20230513075248 26a8d361 system.traceback_entries%s
+D s-wchcon.ads		20230513075248 1b7d22d2 system.wch_con%s
+D wrapper.adb		20240415223322 1952fbd4 wrapper%b
+G a e
+G c Z b b [wrapper standard 9 11 none]
+G r c none [wrapper standard 9 11 none] [factorial_loop library 9 14 none]
+G r c none [wrapper standard 9 11 none] [gcd_loop library 14 14 none]
+G r c none [wrapper standard 9 11 none] [diofant_loop library 19 14 none]
+G r c none [wrapper standard 9 11 none] [factorial_recursion library 11 14 none]
+G r c none [wrapper standard 9 11 none] [gcd_recursion library 16 14 none]
+G r c none [wrapper standard 9 11 none] [diofant_recursion library 21 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 29|6r6 6r23
+X 6 a-textio.ads
+58K13*Text_IO 728e16 29|6w10 6r27
+509U14*Put_Line 29|16s5 19s5 25s5 30s5 33s5 38s5
+X 11 library.ads
+3K9*Library 24e12 29|7w6 7r19
+4R10*DiofantEquationSolution 7e9 29|13r16
+5i9*x{integer} 29|27r37 40r37
+5i12*y{integer} 29|27r76 40r76
+9V14*Factorial_loop{integer} 29|16s52
+11V14*Factorial_recursion{integer} 29|30s62
+14V14*Gcd_loop{integer} 29|20s38
+16V14*Gcd_recursion{integer} 29|34s38
+19V14*Diofant_loop{4R10} 29|24s17
+21V14*Diofant_recursion{4R10} 29|37s17
+X 29 wrapper.adb
+9U11*Wrapper 9b11 41l5 41t12
+10i5 A{integer} 19r40 20r47 24r30 25r58 33r50 34r52 37r35 38r70
+11i5 B{integer} 19r69 20r50 24r33 26r28 33r79 34r55 37r38 39r28
+12i5 C{integer} 23m5 24r36 26r56 37r41 39r56
+13r5 Solution{11|4R10} 24m5 27r28 27r67 37m5 40r28 40r67
+

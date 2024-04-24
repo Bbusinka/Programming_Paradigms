@@ -1,0 +1,70 @@
+V "GNAT Lib v11"
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_RECURSION
+
+U library%b		library.adb		0ef37724 NE OO PK
+
+U library%s		library.ads		2f1fa9e7 EE NE OO PK
+
+D library.ads		20240409193100 2f1fa9e7 library%s
+D library.adb		20240409193037 21ecdec3 library%b
+D system.ads		20230513075248 a2da961d system%s
+G a e
+G c Z s b [factorial library 6 14 none]
+G c Z s b [gcd library 7 14 none]
+G c Z s b [diofant library 8 14 none]
+G c Z s b [factorial_recursion library 9 14 none]
+G c Z s b [gcd_recursion library 10 14 none]
+G c Z s b [diofant_recursion library 11 14 none]
+G c Z s s [diofantequationsolutionIP library 2 10 none]
+X 1 library.ads
+1K9*Library 12l5 12e12 2|1b14 143l5 143t12
+2R10*DiofantEquationSolution 4e15 8r48 11r58 2|42r48 43r16 90r54 91r16 129r23
+3i9*x{integer} 2|50m19 80m22 84m19 95m19 102m22 105m22 113m22 116m22 123m19
+. 131r24 132m22 137m19 138r35
+3i12*y{integer} 2|51m19 81m22 85m19 96m19 103m22 106m22 114m22 117m22 124m19
+. 131r46 133m22 137r35 138m19 138r60
+6V14*Factorial{integer} 6>24 2|2b14 9l9 9t18
+6i24 n{integer} 2|2b24 5r23
+7V14*GCD{integer} 7>18 7>21 2|11b14 22l9 22t12 44s25
+7i18 a{integer} 2|11b18 12r28
+7i21 b{integer} 2|11b21 13r28
+8V14*Diofant{2R10} 8>22 8>25 8>28 2|42b14 88l9 88t16
+8i22 a{integer} 2|42b22 44r29 45r25
+8i25 b{integer} 2|42b25 44r32 46r25
+8i28 c{integer} 2|42b28 47r25
+9V14*Factorial_Recursion{integer} 9>34 2|24b14 29s24 31l9 31t28
+9i34 n{integer} 2|24b34 26r12 26r26 29r20 29r44
+10V14*GCD_Recursion{integer} 10>28 10>31 2|33b14 38s20 40l9 40t22 92s25
+10i28 a{integer} 2|33b28 36r20 38r37
+10i31 b{integer} 2|33b31 35r12 38r34 38r43
+11V14*Diofant_Recursion{2R10} 11>32 11>35 11>38 2|90b10 129s50 141l5 141t22
+11i32 a{integer} 2|90b28 92r39 94r10 100r10 112r19 113r31 129r71 138r40
+11i35 b{integer} 2|90b31 92r42 94r20 101r19 103r31 111r10 129r68 129r77 138r44
+11i38 c{integer} 2|90b34 101r13 103r27 112r13 113r27 122r10 129r80
+X 2 library.adb
+3i9 Result{integer} 6m13 6r23 8r16
+5i13 I{integer} 6r32
+12i9 copyA{integer} 18r22 19m13 21r16
+13i9 copyB{integer} 16r15 17r21 18m13 18r32
+14i9 Temp{integer} 17m13 19r22
+43r5 Solution{1|2R10} 50m10 51m10 80m13 81m13 84m10 85m10 87r14
+44i5 GCD_AB{integer} 49r21 53r29 54r29 55r29
+45i5 A_Copy{integer} 53m10 53r20 66r21 68r26 69m16
+46i5 B_Copy{integer} 54m10 54r20 65r19 66r30 67r24 68m16 68r37
+47i5 C_Copy{integer} 49r10 55m10 55r20 80r32 81r32
+58i13 X0{integer} 71r24 72m16 80r27
+59i13 Y0{integer} 75r24 76m16 81r27
+60i13 X1{integer} 72r22 73m16 73r33
+61i13 Y1{integer} 76r22 77m16 77r33
+62i13 Temp{integer} 67m16 69r26 71m16 73r22 75m16 77r22
+63i13 Q{integer} 66m16 73r29 77r29
+91r5 Solution{1|2R10} 95m10 96m10 97r17 102m13 103m13 105m13 106m13 108r17
+. 113m13 114m13 116m13 117m13 119r17 123m10 124m10 125r17 132m13 133m13 134r20
+. 137m10 138m10 140r12
+92i5 GCD_AB{integer} 122r16
+129r10 TempResult{1|2R10} 131r13 131r35 137r24 138r24 138r49
+

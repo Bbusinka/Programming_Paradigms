@@ -1,0 +1,75 @@
+V "GNAT Lib v11"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U main%b		main.adb		2159cc6c NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W library%s		library.adb		library.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_6%s	s-conca6.adb		s-conca6.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+D ada.ads		20230513075248 76789da1 ada%s
+D a-except.ads		20230513075248 449c9b65 ada.exceptions%s
+D a-ioexce.ads		20230513075248 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20230513075248 119b8fb3 ada.streams%s
+D a-tags.ads		20230513075248 9eaa38c6 ada.tags%s
+D a-textio.ads		20230513075248 aef4d56d ada.text_io%s
+D a-unccon.ads		20230513075248 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230513075248 edec285f interfaces%s
+D i-cstrea.ads		20230513075248 e53d8b8e interfaces.c_streams%s
+D library.ads		20240409193100 2f1fa9e7 library%s
+D main.adb		20240415231057 a0b2b0e6 main%b
+D system.ads		20230513075248 a2da961d system%s
+D s-conca2.ads		20230513075248 02a0d7d0 system.concat_2%s
+D s-conca6.ads		20230513075248 d2c72db2 system.concat_6%s
+D s-crtl.ads		20230513075248 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230513075248 54135002 system.exception_table%s
+D s-ficobl.ads		20230513075248 078245e4 system.file_control_block%s
+D s-imagei.ads		20230513075248 0d3f86a7 system.image_i%s
+D s-imgint.ads		20230513075248 bdb6f5ec system.img_int%s
+D s-parame.ads		20230513075248 4752c4cb system.parameters%s
+D s-secsta.ads		20230513075248 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20230513075248 a7318a92 system.soft_links%s
+D s-stache.ads		20230513075248 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230513075248 0f2d51ff system.standard_library%s
+D s-stoele.ads		20230513075248 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20230513075248 ed88f8fb system.storage_elements%b
+D s-traent.ads		20230513075248 26a8d361 system.traceback_entries%s
+D s-wchcon.ads		20230513075248 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 7 11 none]
+G r c none [main standard 7 11 none] [factorial library 6 14 none]
+G r c none [main standard 7 11 none] [gcd library 7 14 none]
+G r c none [main standard 7 11 none] [diofant library 8 14 none]
+G r c none [main standard 7 11 none] [factorial_recursion library 9 14 none]
+G r c none [main standard 7 11 none] [gcd_recursion library 10 14 none]
+G r c none [main standard 7 11 none] [diofant_recursion library 11 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|4r6 4r23
+X 6 a-textio.ads
+58K13*Text_IO 728e16 11|4w10 4r27
+509U14*Put_Line 11|14s5 17s5 23s5 28s5 31s5 36s5
+X 10 library.ads
+1K9*Library 12e12 11|5w6 5r19
+2R10*DiofantEquationSolution 4e15 11|11r16
+3i9*x{integer} 11|25r37 38r37
+3i12*y{integer} 11|25r76 38r76
+6V14*Factorial{integer} 11|14s52
+7V14*GCD{integer} 11|18s38
+8V14*Diofant{2R10} 11|22s17
+9V14*Factorial_Recursion{integer} 11|28s62
+10V14*GCD_Recursion{integer} 11|32s38
+11V14*Diofant_Recursion{2R10} 11|35s17
+X 11 main.adb
+7U11*Main 7b11 39l5 39t9
+8i5 A{integer} 17r40 18r42 22r25 23r58 31r50 32r52 35r35 36r70
+9i5 B{integer} 17r69 18r45 22r28 24r28 31r79 32r55 35r38 37r28
+10i5 C{integer} 21m5 22r31 24r56 35r41 37r56
+11r5 Solution{10|2R10} 22m5 25r28 25r67 35m5 38r28 38r67
+

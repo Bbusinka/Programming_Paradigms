@@ -1,0 +1,54 @@
+V "GNAT Lib v11"
+P ZX
+
+RN
+
+U library%s		library.ads		25c3f622 NE OO PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+
+D ada.ads		20230513075248 76789da1 ada%s
+D a-unccon.ads		20230513075248 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230513075248 edec285f interfaces%s
+D i-c.ads		20230513075248 c624fa43 interfaces.c%s
+D library.ads		20240415223308 e3e70c61 library%s
+D system.ads		20230513075248 a2da961d system%s
+D s-exctab.ads		20230513075248 54135002 system.exception_table%s
+D s-parame.ads		20230513075248 4752c4cb system.parameters%s
+D s-stalib.ads		20230513075248 0f2d51ff system.standard_library%s
+G a e
+G c Z s s [factorial_loop library 9 14 none]
+G c Z s s [factorial_recursion library 11 14 none]
+G c Z s s [gcd_loop library 14 14 none]
+G c Z s s [gcd_recursion library 16 14 none]
+G c Z s s [diofant_loop library 19 14 none]
+G c Z s s [diofant_recursion library 21 14 none]
+G c Z s s [diofantequationsolutionIP library 4 10 none]
+X 3 interfac.ads
+38K9*Interfaces 231e15 5|1r6 1r24
+X 4 i-c.ads
+18K20*C 232e17 5|1w17 1r35
+X 5 library.ads
+3K9*Library 24l5 24e12
+4R10*DiofantEquationSolution 7e9 19r53 21r58
+5i9*x{integer}
+5i12*y{integer}
+9V14*Factorial_loop{integer} 9>29
+9i29 n{integer}
+11V14*Factorial_recursion{integer} 11>34
+11i34 n{integer}
+14V14*Gcd_loop{integer} 14>23 14>26
+14i23 a{integer}
+14i26 b{integer}
+16V14*Gcd_recursion{integer} 16>28 16>31
+16i28 a{integer}
+16i31 b{integer}
+19V14*Diofant_loop{4R10} 19>27 19>30 19>33
+19i27 a{integer}
+19i30 b{integer}
+19i33 c{integer}
+21V14*Diofant_recursion{4R10} 21>32 21>35 21>38
+21i32 a{integer}
+21i35 b{integer}
+21i38 c{integer}
+
